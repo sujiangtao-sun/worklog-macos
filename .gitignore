@@ -1,0 +1,24 @@
+# SwiftPM
+.build/
+.swiftpm/
+
+# Local build artifacts and distributables
+dist/
+*.zip
+*.dSYM/
+
+# macOS
+.DS_Store
+._*
+
+# Local application data — never commit
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.rtfd
+attachments/
+
+# Large media assets are published as GitHub Release assets
+*.mov
+*.mp4
